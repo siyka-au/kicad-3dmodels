@@ -1,9 +1,8 @@
 *.md text=auto
 *.txt text=auto
-
-*.STEP binary
-*.step binary
-*.STP binary
-*.stp binary
+*.STEP filter=lfs diff=lfs merge=lfs -text
+*.step filter=lfs diff=lfs merge=lfs -text
+*.STP filter=lfs diff=lfs merge=lfs -text
+*.stp filter=lfs diff=lfs merge=lfs -text
 *.wrl -diff
 *.WRL -diff
